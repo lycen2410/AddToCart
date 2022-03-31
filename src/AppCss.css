@@ -1,0 +1,129 @@
+
+.App-logo {
+/* display: inline; */
+ float: left;
+ margin-left: 10px;
+ margin-top: 20px;
+}
+
+.text{
+  margin-left: 10px;
+  color: blue;
+  /* white-space: nowrap; */
+  /* display: inline; */
+  float: left;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: large;
+}
+.cart-logo {
+   display: inline;
+   float: right;
+   margin-right: 50px;
+   margin-top: 20px;
+   height: 40px;
+  }
+
+  .cart-text{
+    display: inline;
+    float: right;
+    margin-right: -45px;
+    margin-top: 20px;
+    height: 60px;
+    color:rgb(238, 80, 32);
+    font-weight: bold ;
+  }
+
+  .landing{
+  margin-left: 30px;
+  float: center;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: large;
+  }
+
+  .column {
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  .originalPrice{
+    color: grey;
+    text-decoration: line-through;
+    padding-right: 3px;
+  }
+  .finalPrice{
+    padding-left:5px;
+    font-size: large;
+    font-weight: bold;
+  }
+  .description{
+  color: grey;
+  max-width: 300px;
+  }
+.button{
+  width: 30px;
+  height: 30px;
+  color: black;
+  background-color: rgb(162, 162, 247);
+  border-color: white;
+ 
+}
+.input{
+  height: 20px;
+  text-align: center;
+  border-color: rgb(162, 162, 247);;
+}
+.p2LeftTable{
+  border: 1px solid rgb(233, 228, 228);
+  width: 40%;
+  margin-right: 180px;
+}
+
+.p2RightTable{
+  border: 1px solid rgb(66, 63, 233);
+  width: 30%;
+  margin-right: 180px;
+  background-color: rgb(163, 163, 216);
+
+}
+td, th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 2px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  /* height: 300px; */
+}
+.addToCart{
+  width: 300px;
+  padding: 10px;
+  border-radius: 3%;
+  background-color: transparent;
+  border-color: teal;
+}
+
+.css-serial
+{
+    counter-reset: Serial;           /* Set the Serial counter to 0 */
+}
+
+.serial  td:first-child:before
+{
+  counter-increment: Serial;      /* Increment the Serial counter */
+  content: counter(Serial); /* Display the counter */
+}
+.placeOrder{
+  width: 400px;
+  height: 30px;
+  color: black;
+  background-color: rgb(67, 67, 237);
+  border-color: white;
+  float: center;
+  font-weight: bolder;
+}
